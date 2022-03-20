@@ -1,34 +1,66 @@
 package testcase;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.aventstack.extentreports.reporter.configuration.Theme;
+import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 public class BaseTest {
+    public static ExtentHtmlReporter htmlReporter;
+    public static ExtentReports extentReports;
 
-    public HashMap<String,String> convertSingleResponseResultToMap(Response res){
-        HashMap<String,String> hm = new HashMap<>();
-        JsonPath jsonPath = res.jsonPath();
-        String jsonPathString = jsonPath.get("result").toString()
-                .replace("{","")
-                .replace("}","")
-                .replace("[","")
-                .replace("]","");
+    @BeforeSuite
+    public void beforeSuite(){
+        htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "/test-output/abc.html");
+        htmlReporter.config().setDocumentTitle("API Testing Report");
+        htmlReporter.config().setReportName("FTX REST API Test");
+        htmlReporter.config().setTheme(Theme.DARK);
 
-        String[] s = jsonPathString.split(",");
-        for(int i=0;i<s.length;i++){
-            if(!s[i].endsWith("=")) {
-                String[] sSplit = s[i].split("=");
-                if (sSplit[0].startsWith(" ")) {
-                    sSplit[0] = sSplit[0].substring(1, sSplit[0].length());
+        extentReports = new ExtentReports();
+        extentReports.attachReporter(htmlReporter);
+        extentReports.setSystemInfo("Host Name","Local Host");
+        extentReports.setSystemInfo("Environment","QA");
+        extentReports.setSystemInfo("Tester","QA");
+
+//        logger = Logger.getLogger("ftxRestTest"); // added logger
+//        PropertyConfigurator.configure("log4j.properties");
+//        logger.setLevel(Level.INFO);
+//
+//        logger.info("BeforeSuite : setup Extent Report");
+//        logger.info("BeforeSuite : setup Endpoint " + EndPoints.endPoint);
+//        logger.info("BeforeSuite : setup log4j");
+
+    }
+    public HashMap<String,String> convertSingleResponseResultToMap(Response res) throws Exception{
+            HashMap<String,String> hm = new HashMap<>();JsonPath jsonPath = res.jsonPath();
+            String jsonPathString = jsonPath.get("result").toString()
+                    .replace("{","")
+                    .replace("}","")
+                    .replace("[","")
+                    .replace("]","");
+
+            String[] s = jsonPathString.split(",");
+            for(int i=0;i<s.length;i++){
+                if(s[i].equals("") || s[i] == null){
+                    throw new Exception("Response Result is empty");
                 }
-                hm.put(sSplit[0], sSplit[1]);
+                if(!s[i].endsWith("=")) {
+                    String[] sSplit = s[i].split("=");
+                    if (sSplit[0].startsWith(" ")) {
+                        sSplit[0] = sSplit[0].substring(1, sSplit[0].length());
+                    }
+                    hm.put(sSplit[0], sSplit[1]);
+                }
             }
-        }
-        return hm;
+            return hm;
     }
 
     public HashMap<String,String> convertQuerySymbolResponseResult(Response res, String symbol){
@@ -43,4 +75,8 @@ public class BaseTest {
         return hm;
     }
 
+    @AfterSuite
+    public void tearDownSuite(){
+        extentReports.flush();
+    }
 }

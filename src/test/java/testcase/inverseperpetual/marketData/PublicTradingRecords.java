@@ -1,46 +1,70 @@
 package testcase.inverseperpetual.marketData;
 
-import common.endpoints.EndPoints;
-import common.endpoints.Order;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+import common.endPoints.EndPoints;
+import common.order.Order;
+import common.requests.InversePerpetualRequest;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import testcase.BaseTest;
 
+import java.io.IOException;
 import java.util.HashMap;
 
 import static org.hamcrest.Matchers.lessThan;
 
 public class PublicTradingRecords extends BaseTest {
+    String request = InversePerpetualRequest.PUBLIC_TRADE_RECORDS;
+
+    @DataProvider(name="testPublicTradingRecords")
+    public Object[][] getData() throws IOException {
+        //read data from excel
+        String path = System.getProperty("user.dir") + "/src/test/java/resources/inverseperpetual/testPublicTradingRecords.xlsx";
+        int rowNum = common.util.XLUtils.getRowCount(path,"Sheet1");
+        int colNum = common.util.XLUtils.getCellCount(path,"sheet1",1);
+        String[][] testData = new String [rowNum][colNum];
+
+        for(int i=1;i<=rowNum;i++){
+            for(int j=0;j<colNum;j++){
+                testData[i-1][j] = common.util.XLUtils.getCellData(path,"Sheet1",i,j);
+            }
+        }
+        return testData;
+    }
 
     //Verify Response Time
-    @Test
-    public void testRequestTime(){
+    @Test(dataProvider = "testPublicTradingRecords")
+    public void testRequestTime(String symbol, String limit){
+        ExtentTest extentTest = extentReports.createTest("testRequestTime","to verify LatestBigDeal response");
         try{
             RestAssured.given()
                     .when()
-                    .queryParam("symbol", "BTCUSD")
-                    .queryParam("limit",1)
-                    .get("/v2/public/trading-records")
+                    .queryParam("symbol", symbol)
+                    .queryParam("limit",limit)
+                    .get(request)
                     .then()
                     .time(lessThan(10000L));
         }
         catch (AssertionError e){
             Assert.fail(e.toString());
+            extentTest.log(Status.FAIL, e.getMessage());
         }
     }
 
     //Print Response Log
-    @Test
-    public void testRequestLog(){
+    @Test(dataProvider = "testPublicTradingRecords")
+    public void testRequestLog(String symbol, String limit){
         try{
             RestAssured.given()
                     .when()
-                    .queryParam("symbol", "BTCUSD")
-                    .queryParam("limit",1)
-                    .get("/v2/public/trading-records")
+                    .queryParam("symbol", symbol)
+                    .queryParam("limit",limit)
+                    .get(request)
                     .then()
                     .log().body();
         }
@@ -50,15 +74,16 @@ public class PublicTradingRecords extends BaseTest {
     }
 
     //Verify Response Fields
-    @Test
-    public void testPublicTradingRecords(){
+    @Test(dataProvider = "testPublicTradingRecords")
+    public void testPublicTradingRecords(String symbol, String limit){
+        extentReports.createTest("testPublicTradingRecords","to verify PublicTradingRecords response");
         RestAssured.baseURI = EndPoints.endPoint;
         try {
             Response response = RestAssured.given()
                     .when()
-                    .queryParam("symbol", "BTCUSD")
-                    .queryParam("limit",1)
-                    .get("/v2/public/trading-records");
+                    .queryParam("symbol", symbol)
+                    .queryParam("limit",limit)
+                    .get(request);
 
             HashMap<String,String> hm = convertSingleResponseResultToMap(response);
 
@@ -66,7 +91,7 @@ public class PublicTradingRecords extends BaseTest {
             softAssert.assertEquals(response.getStatusCode(),200,"Status code is not 200");
             softAssert.assertEquals(response.getStatusLine(),"HTTP/1.1 200 OK","Status line is not as expected");
             softAssert.assertEquals(response.getContentType(),"application/json; charset=utf-8","ContentType is not same as expected");
-            softAssert.assertEquals(hm.get("symbol"),"BTCUSD","Symbol in Response is not same as expected");
+            softAssert.assertEquals(hm.get("symbol"),symbol,"Symbol in Response is not same as expected");
             softAssert.assertTrue(Order.getSide().contains(hm.get("side")),"Side in Response is not either Buy or Sell");
             softAssert.assertAll();
         } catch (Exception e) {

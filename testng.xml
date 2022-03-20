@@ -2,13 +2,38 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="BybitRestTest Suite">
-    <test name="BybitRestTest Test">
+    <test name="BybitRestTest usdtPerpetual Test">
         <classes>
-            <class name="testcase.usdtperpetual.marketData.PublicTradingRecords"/>
-            <class name="testcase.usdtperpetual.marketData.GetTheLastFundingRate"/>
-            <class name="testcase.usdtperpetual.marketData.QueryKline"/>
-            <class name="testcase.usdtperpetual.marketData.QueryIndexPriceKline"/>
-            <class name="testcase.usdtperpetual.marketData.QueryMarkPriceKline"/>
+            <class name="testcase.usdtPerpetual.marketData.PublicTradingRecords"/>
+            <class name="testcase.usdtPerpetual.marketData.GetTheLastFundingRate"/>
+            <class name="testcase.usdtPerpetual.marketData.QueryKline"/>
+            <class name="testcase.usdtPerpetual.marketData.QueryIndexPriceKline"/>
+            <class name="testcase.usdtPerpetual.marketData.QueryMarkPriceKline"/>
         </classes>
     </test>
+    <test name="BybitRestTest inversePerpetual Test">
+        <classes>
+            <class name="testcase.inverseperpetual.marketData.LatestBigDeal"/>
+            <class name="testcase.inverseperpetual.marketData.LatestInformationForSymbol"/>
+            <class name="testcase.inverseperpetual.marketData.LongShortRatio"/>
+            <class name="testcase.inverseperpetual.marketData.OrderBook"/>
+            <class name="testcase.inverseperpetual.marketData.PublicTradingRecords"/>
+            <class name="testcase.inverseperpetual.marketData.QueryIndexPriceKline"/>
+            <class name="testcase.inverseperpetual.marketData.QueryKline"/>
+            <class name="testcase.inverseperpetual.marketData.QueryMarkPriceKline"/>
+            <class name="testcase.inverseperpetual.marketData.QuerySymbol"/>
+        </classes>
+    </test>
+    <test name="BybitRestTest spot Test">
+        <classes>
+            <class name="testcase.spot.marketData.BestBidAskPrice"/>
+            <class name="testcase.spot.marketData.LastTradedPrice"/>
+            <class name="testcase.spot.marketData.LatestInformationForSymbol"/>
+            <class name="testcase.spot.marketData.MergedOrderBook"/>
+            <class name="testcase.spot.marketData.OrderBook"/>
+            <class name="testcase.spot.marketData.PublicTradingRecords"/>
+            <class name="testcase.spot.marketData.QuerySymbol"/>
+        </classes>
+    </test>
+
 </suite>
