@@ -20,11 +20,13 @@ public class BaseTest {
 
         String[] s = jsonPathString.split(",");
         for(int i=0;i<s.length;i++){
-            String[] sSplit = s[i].split("=");
-            if(sSplit[0].startsWith(" ")){
-                sSplit[0] = sSplit[0].substring(1,sSplit[0].length());
+            if(!s[i].endsWith("=")) {
+                String[] sSplit = s[i].split("=");
+                if (sSplit[0].startsWith(" ")) {
+                    sSplit[0] = sSplit[0].substring(1, sSplit[0].length());
+                }
+                hm.put(sSplit[0], sSplit[1]);
             }
-            hm.put(sSplit[0],sSplit[1]);
         }
         return hm;
     }
