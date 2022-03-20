@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="BybitRestTest Suite">
+    <test name="BybitRestTest Test">
+        <classes>
+            <class name="testcase.usdtperpetual.marketData.PublicTradingRecords"/>
+            <class name="testcase.usdtperpetual.marketData.GetTheLastFundingRate"/>
+            <class name="testcase.usdtperpetual.marketData.QueryKline"/>
+            <class name="testcase.usdtperpetual.marketData.QueryIndexPriceKline"/>
+            <class name="testcase.usdtperpetual.marketData.QueryMarkPriceKline"/>
+        </classes>
+    </test>
+</suite>
