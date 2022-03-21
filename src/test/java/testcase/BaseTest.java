@@ -6,6 +6,9 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
@@ -16,6 +19,7 @@ import java.util.Map;
 public class BaseTest {
     public static ExtentHtmlReporter htmlReporter;
     public static ExtentReports extentReports;
+    public static org.apache.log4j.Logger logger;
 
     @BeforeSuite
     public void beforeSuite(){
@@ -30,6 +34,9 @@ public class BaseTest {
         extentReports.setSystemInfo("Environment","QA");
         extentReports.setSystemInfo("Tester","QA");
 
+        logger = Logger.getLogger("BybitWebSocketTest"); // added logger
+        PropertyConfigurator.configure("log4j.properties");
+        logger.setLevel(Level.INFO);
     }
     public HashMap<String,String> convertSingleResponseResultToMap(Response res) throws Exception{
             HashMap<String,String> hm = new HashMap<>();
