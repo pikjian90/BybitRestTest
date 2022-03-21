@@ -49,8 +49,9 @@ public class BestBidAskPrice extends BaseTest {
                     .time(lessThan(10000L));
         }
         catch (AssertionError e){
-            Assert.fail(e.toString());
+            e.printStackTrace();
             extentTest.log(Status.FAIL, e.getMessage());
+            Assert.fail(e.getMessage());
         }
     }
 
@@ -73,7 +74,7 @@ public class BestBidAskPrice extends BaseTest {
     //Verify Response Fields
     @Test(dataProvider = "testBestBidAskPrice")
     public void testBestBidAskPrice(String symbol){
-        extentReports.createTest("testBestBidAskPrice","to verify BestBidAskPrice response");
+        ExtentTest extentTest = extentReports.createTest("testBestBidAskPrice","to verify BestBidAskPrice response");
         RestAssured.baseURI = EndPoints.endPoint;
         try {
             Response response = RestAssured.given()
@@ -92,7 +93,8 @@ public class BestBidAskPrice extends BaseTest {
             softAssert.assertAll();
         } catch (Exception e) {
             e.printStackTrace();
-        }
+            extentTest.log(Status.FAIL, e.getMessage());
+            Assert.fail(e.getMessage());        }
 
 
     }

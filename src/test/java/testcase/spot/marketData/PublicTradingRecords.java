@@ -50,8 +50,9 @@ public class PublicTradingRecords extends BaseTest {
                     .time(lessThan(10000L));
         }
         catch (AssertionError e){
-            Assert.fail(e.toString());
+            e.printStackTrace();
             extentTest.log(Status.FAIL, e.getMessage());
+            Assert.fail(e.getMessage());
         }
     }
 
@@ -75,7 +76,7 @@ public class PublicTradingRecords extends BaseTest {
     //Verify Response Fields
     @Test(dataProvider = "testPublicTradingRecords")
     public void testPublicTradingRecords(String symbol, String limit){
-        extentReports.createTest("testPublicTradingRecords","to verify PublicTradingRecords response");
+        ExtentTest extentTest = extentReports.createTest("testPublicTradingRecords","to verify PublicTradingRecords response");
         RestAssured.baseURI = EndPoints.endPoint;
         try {
             Response response = RestAssured.given()
@@ -93,7 +94,8 @@ public class PublicTradingRecords extends BaseTest {
             softAssert.assertAll();
         } catch (Exception e) {
             e.printStackTrace();
-        }
+            extentTest.log(Status.FAIL, e.getMessage());
+            Assert.fail(e.getMessage());        }
 
 
     }

@@ -53,8 +53,9 @@ public class QueryKline extends BaseTest {
                     .time(lessThan(10000L));
         }
         catch (AssertionError e){
-            Assert.fail(e.toString());
+            e.printStackTrace();
             extentTest.log(Status.FAIL, e.getMessage());
+            Assert.fail(e.getMessage());
         }
     }
 
@@ -80,7 +81,7 @@ public class QueryKline extends BaseTest {
     //Verify Response Fields
     @Test(dataProvider = "testQueryKline")
     public void testQueryKline(String symbol, String interval, String limit){
-        extentReports.createTest("testQueryKline","to verify QueryKline response");
+        ExtentTest extentTest = extentReports.createTest("testQueryKline","to verify QueryKline response");
         RestAssured.baseURI = EndPoints.endPoint;
         try {
             Response response = RestAssured.given()
@@ -102,7 +103,8 @@ public class QueryKline extends BaseTest {
             softAssert.assertAll();
         } catch (Exception e) {
             e.printStackTrace();
-        }
+            extentTest.log(Status.FAIL, e.getMessage());
+            Assert.fail(e.getMessage());        }
 
 
 

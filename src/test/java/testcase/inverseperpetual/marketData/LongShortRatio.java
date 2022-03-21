@@ -51,9 +51,9 @@ public class LongShortRatio extends BaseTest {
                     .time(lessThan(10000L));
         }
         catch (AssertionError e){
-            Assert.fail(e.toString());
+            e.printStackTrace();
             extentTest.log(Status.FAIL, e.getMessage());
-
+            Assert.fail(e.getMessage());
         }
     }
 
@@ -78,7 +78,7 @@ public class LongShortRatio extends BaseTest {
     //Verify Response Fields
     @Test(dataProvider = "testLongShortRatio")
     public void testLatestBigDeal(String name, String period, String limit){
-        extentReports.createTest("testLatestBigDeal","to verify LatestBigDeal response");
+        ExtentTest extentTest = extentReports.createTest("testLatestBigDeal","to verify LatestBigDeal response");
         RestAssured.baseURI = EndPoints.endPoint;
         try {
             Response response = RestAssured.given()
@@ -103,7 +103,8 @@ public class LongShortRatio extends BaseTest {
             softAssert.assertAll();
         } catch (Exception e) {
             e.printStackTrace();
-        }
+            extentTest.log(Status.FAIL, e.getMessage());
+            Assert.fail(e.getMessage());        }
 
 
     }

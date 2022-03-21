@@ -48,8 +48,9 @@ public class QuerySymbol extends BaseTest {
                     .time(lessThan(10000L));
         }
         catch (AssertionError e){
-            Assert.fail(e.toString());
+            e.printStackTrace();
             extentTest.log(Status.FAIL, e.getMessage());
+            Assert.fail(e.getMessage());
         }
     }
 
@@ -71,7 +72,7 @@ public class QuerySymbol extends BaseTest {
     //Verify Response Fields
     @Test(dataProvider = "testQuerySymbol")
     public void testQuerySymbol(String symbol, String baseCurrency, String quoteCurrency){
-        extentReports.createTest("testQuerySymbol","to verify QuerySymbol response");
+        ExtentTest extentTest = extentReports.createTest("testQuerySymbol","to verify QuerySymbol response");
         RestAssured.baseURI = EndPoints.endPoint;
         try {
             Response response = RestAssured.given()
@@ -92,7 +93,8 @@ public class QuerySymbol extends BaseTest {
             softAssert.assertAll();
         } catch (Exception e) {
             e.printStackTrace();
-        }
+            extentTest.log(Status.FAIL, e.getMessage());
+            Assert.fail(e.getMessage());        }
 
 
     }

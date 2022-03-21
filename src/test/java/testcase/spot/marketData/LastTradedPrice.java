@@ -49,8 +49,9 @@ public class LastTradedPrice extends BaseTest {
                     .time(lessThan(10000L));
         }
         catch (AssertionError e){
-            Assert.fail(e.toString());
+            e.printStackTrace();
             extentTest.log(Status.FAIL, e.getMessage());
+            Assert.fail(e.getMessage());
         }
     }
 
@@ -73,7 +74,7 @@ public class LastTradedPrice extends BaseTest {
     //Verify Response Fields
     @Test(dataProvider = "testLastTradedPrice")
     public void testLastTradedPrice(String symbol){
-        extentReports.createTest("testLastTradedPrice","to verify LastTradedPrice response");
+        ExtentTest extentTest = extentReports.createTest("testLastTradedPrice","to verify LastTradedPrice response");
         RestAssured.baseURI = EndPoints.endPoint;
         try {
             Response response = RestAssured.given()
@@ -88,11 +89,11 @@ public class LastTradedPrice extends BaseTest {
             softAssert.assertEquals(response.getStatusLine(),"HTTP/1.1 200 OK","Status line is not as expected");
             softAssert.assertEquals(response.getContentType(),"application/json","ContentType is not same as expected");
             softAssert.assertEquals(hm.get("symbol"),symbol,"symbol is not same as expected");
-
             softAssert.assertAll();
         } catch (Exception e) {
             e.printStackTrace();
-        }
+            extentTest.log(Status.FAIL, e.getMessage());
+            Assert.fail(e.getMessage());        }
 
 
     }

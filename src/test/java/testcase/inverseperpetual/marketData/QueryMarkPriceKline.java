@@ -53,8 +53,9 @@ public class QueryMarkPriceKline extends BaseTest {
                     .time(lessThan(10000L));
         }
         catch (AssertionError e){
-            Assert.fail(e.toString());
+            e.printStackTrace();
             extentTest.log(Status.FAIL, e.getMessage());
+            Assert.fail(e.getMessage());
         }
     }
 
@@ -80,7 +81,7 @@ public class QueryMarkPriceKline extends BaseTest {
     //Verify Response Fields
     @Test(dataProvider = "testQueryMarkPriceKline")
     public void testQueryMarkPriceKline(String symbol, String interval, String limit){
-        extentReports.createTest("testQueryMarkPriceKline","to verify testQueryMarkPriceKline response");
+        ExtentTest extentTest = extentReports.createTest("testQueryMarkPriceKline","to verify testQueryMarkPriceKline response");
         RestAssured.baseURI = EndPoints.endPoint;
         try {
             Response response = RestAssured.given()
@@ -102,7 +103,8 @@ public class QueryMarkPriceKline extends BaseTest {
             softAssert.assertAll();
         } catch (Exception e) {
             e.printStackTrace();
-        }
+            extentTest.log(Status.FAIL, e.getMessage());
+            Assert.fail(e.getMessage());        }
 
 
     }

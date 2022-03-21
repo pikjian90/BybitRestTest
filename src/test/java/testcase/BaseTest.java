@@ -19,9 +19,9 @@ public class BaseTest {
 
     @BeforeSuite
     public void beforeSuite(){
-        htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "/test-output/abc.html");
+        htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "/test-output/BybitRESTTestReport.html");
         htmlReporter.config().setDocumentTitle("API Testing Report");
-        htmlReporter.config().setReportName("FTX REST API Test");
+        htmlReporter.config().setReportName("Bybit REST API Test");
         htmlReporter.config().setTheme(Theme.DARK);
 
         extentReports = new ExtentReports();
@@ -30,17 +30,10 @@ public class BaseTest {
         extentReports.setSystemInfo("Environment","QA");
         extentReports.setSystemInfo("Tester","QA");
 
-//        logger = Logger.getLogger("ftxRestTest"); // added logger
-//        PropertyConfigurator.configure("log4j.properties");
-//        logger.setLevel(Level.INFO);
-//
-//        logger.info("BeforeSuite : setup Extent Report");
-//        logger.info("BeforeSuite : setup Endpoint " + EndPoints.endPoint);
-//        logger.info("BeforeSuite : setup log4j");
-
     }
     public HashMap<String,String> convertSingleResponseResultToMap(Response res) throws Exception{
-            HashMap<String,String> hm = new HashMap<>();JsonPath jsonPath = res.jsonPath();
+            HashMap<String,String> hm = new HashMap<>();
+            JsonPath jsonPath = res.jsonPath();
             String jsonPathString = jsonPath.get("result").toString()
                     .replace("{","")
                     .replace("}","")

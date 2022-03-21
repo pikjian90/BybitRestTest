@@ -52,8 +52,9 @@ public class LatestBigDeal extends BaseTest {
                     .time(lessThan(10000L));
         }
         catch (AssertionError e){
-            Assert.fail(e.toString());
+            e.printStackTrace();
             extentTest.log(Status.FAIL, e.getMessage());
+            Assert.fail(e.getMessage());
         }
     }
 
@@ -101,7 +102,7 @@ public class LatestBigDeal extends BaseTest {
             Assert.fail(e.getMessage());
         } catch (Exception e) {
             e.printStackTrace();
-            extentTest.log(Status.FAIL,e.getMessage());
+            extentTest.log(Status.FAIL, e.getMessage());
             Assert.fail(e.getMessage());
         }
 

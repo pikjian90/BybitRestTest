@@ -49,8 +49,9 @@ public class OrderBook extends BaseTest {
                     .time(lessThan(10000L));
         }
         catch (AssertionError e){
-            Assert.fail(e.toString());
+            e.printStackTrace();
             extentTest.log(Status.FAIL, e.getMessage());
+            Assert.fail(e.getMessage());
         }
     }
 
@@ -73,7 +74,7 @@ public class OrderBook extends BaseTest {
     //Verify Response Fields
     @Test(dataProvider = "testOrderBook")
     public void testOrderBook(String symbol){
-        extentReports.createTest("testOrderBook","to verify OrderBook response");
+        ExtentTest extentTest = extentReports.createTest("testOrderBook","to verify OrderBook response");
         RestAssured.baseURI = EndPoints.endPoint;
         try {
             Response response = RestAssured.given()
@@ -92,7 +93,8 @@ public class OrderBook extends BaseTest {
             softAssert.assertAll();
         } catch (Exception e) {
             e.printStackTrace();
-        }
+            extentTest.log(Status.FAIL, e.getMessage());
+            Assert.fail(e.getMessage());        }
 
 
     }
