@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 299, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 50.621 sec <<< FAILURE!
+testLatestBigDeal(testcase.inverseperpetual.marketData.LatestBigDeal)  Time elapsed: 0.102 sec  <<< FAILURE!
+java.lang.AssertionError: Response Result is empty
+	at org.testng.Assert.fail(Assert.java:96)
+	at testcase.inverseperpetual.marketData.LatestBigDeal.testLatestBigDeal(LatestBigDeal.java:107)
+
+testLatestBigDeal(testcase.inverseperpetual.marketData.LatestBigDeal)  Time elapsed: 0.067 sec  <<< FAILURE!
+java.lang.AssertionError: Response Result is empty
+	at org.testng.Assert.fail(Assert.java:96)
+	at testcase.inverseperpetual.marketData.LatestBigDeal.testLatestBigDeal(LatestBigDeal.java:107)
+
+testLatestBigDeal(testcase.inverseperpetual.marketData.LatestBigDeal)  Time elapsed: 0.08 sec  <<< FAILURE!
+java.lang.AssertionError: Response Result is empty
+	at org.testng.Assert.fail(Assert.java:96)
+	at testcase.inverseperpetual.marketData.LatestBigDeal.testLatestBigDeal(LatestBigDeal.java:107)
+

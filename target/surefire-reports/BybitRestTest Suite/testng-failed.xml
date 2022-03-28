@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BybitRestTest Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="BybitRestTest inversePerpetual Test(failed)" verbose="0">
+    <classes>
+      <class name="testcase.inverseperpetual.marketData.LatestBigDeal">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="testLatestBigDeal" invocation-numbers="2 3 4"/>
+          <include name="tearDownSuite"/>
+        </methods>
+      </class> <!-- testcase.inverseperpetual.marketData.LatestBigDeal -->
+    </classes>
+  </test> <!-- BybitRestTest inversePerpetual Test(failed) -->
+</suite> <!-- Failed suite [BybitRestTest Suite] -->

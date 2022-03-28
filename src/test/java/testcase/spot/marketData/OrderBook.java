@@ -2,6 +2,7 @@ package testcase.spot.marketData;
 
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
+import common.XLUtils.XLUtils;
 import common.endPoints.EndPoints;
 import common.requests.Spot;
 import io.restassured.RestAssured;
@@ -23,13 +24,13 @@ public class OrderBook extends BaseTest {
     public Object[][] getData() throws IOException {
         //read data from excel
         String path = System.getProperty("user.dir") + "/src/test/java/resources/spot/testOrderBook.xlsx";
-        int rowNum = common.util.XLUtils.getRowCount(path, "Sheet1");
-        int colNum = common.util.XLUtils.getCellCount(path, "sheet1", 1);
+        int rowNum = XLUtils.getRowCount(path, "Sheet1");
+        int colNum = XLUtils.getCellCount(path, "sheet1", 1);
         String[][] testData = new String[rowNum][colNum];
 
         for (int i = 1; i <= rowNum; i++) {
             for (int j = 0; j < colNum; j++) {
-                testData[i - 1][j] = common.util.XLUtils.getCellData(path, "Sheet1", i, j);
+                testData[i - 1][j] = XLUtils.getCellData(path, "Sheet1", i, j);
             }
         }
         return testData;

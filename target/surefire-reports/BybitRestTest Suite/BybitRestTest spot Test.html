@@ -1,0 +1,564 @@
+<html>
+<head>
+<title>TestNG:  BybitRestTest spot Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>BybitRestTest spot Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>97/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Mar 28 12:11:15 SGT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>8 seconds (8095 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcase.spot.marketData.BestBidAskPrice.testBestBidAskPrice()'><b>testBestBidAskPrice</b><br>Test class: testcase.spot.marketData.BestBidAskPrice<br>Parameters: BTCUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.BestBidAskPrice@75d4a5c2</td></tr>
+<tr>
+<td title='testcase.spot.marketData.BestBidAskPrice.testBestBidAskPrice()'><b>testBestBidAskPrice</b><br>Test class: testcase.spot.marketData.BestBidAskPrice<br>Parameters: ETHUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.BestBidAskPrice@75d4a5c2</td></tr>
+<tr>
+<td title='testcase.spot.marketData.BestBidAskPrice.testBestBidAskPrice()'><b>testBestBidAskPrice</b><br>Test class: testcase.spot.marketData.BestBidAskPrice<br>Parameters: BITUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.BestBidAskPrice@75d4a5c2</td></tr>
+<tr>
+<td title='testcase.spot.marketData.BestBidAskPrice.testBestBidAskPrice()'><b>testBestBidAskPrice</b><br>Test class: testcase.spot.marketData.BestBidAskPrice<br>Parameters: XRPUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.BestBidAskPrice@75d4a5c2</td></tr>
+<tr>
+<td title='testcase.spot.marketData.BestBidAskPrice.testBestBidAskPrice()'><b>testBestBidAskPrice</b><br>Test class: testcase.spot.marketData.BestBidAskPrice<br>Parameters: DOTUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.BestBidAskPrice@75d4a5c2</td></tr>
+<tr>
+<td title='testcase.spot.marketData.LastTradedPrice.testLastTradedPrice()'><b>testLastTradedPrice</b><br>Test class: testcase.spot.marketData.LastTradedPrice<br>Parameters: BTCUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.LastTradedPrice@557caf28</td></tr>
+<tr>
+<td title='testcase.spot.marketData.LastTradedPrice.testLastTradedPrice()'><b>testLastTradedPrice</b><br>Test class: testcase.spot.marketData.LastTradedPrice<br>Parameters: ETHUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.LastTradedPrice@557caf28</td></tr>
+<tr>
+<td title='testcase.spot.marketData.LastTradedPrice.testLastTradedPrice()'><b>testLastTradedPrice</b><br>Test class: testcase.spot.marketData.LastTradedPrice<br>Parameters: BITUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.LastTradedPrice@557caf28</td></tr>
+<tr>
+<td title='testcase.spot.marketData.LastTradedPrice.testLastTradedPrice()'><b>testLastTradedPrice</b><br>Test class: testcase.spot.marketData.LastTradedPrice<br>Parameters: XRPUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.LastTradedPrice@557caf28</td></tr>
+<tr>
+<td title='testcase.spot.marketData.LastTradedPrice.testLastTradedPrice()'><b>testLastTradedPrice</b><br>Test class: testcase.spot.marketData.LastTradedPrice<br>Parameters: DOTUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.LastTradedPrice@557caf28</td></tr>
+<tr>
+<td title='testcase.spot.marketData.LatestInformationForSymbol.testLatestInformationForSymbol()'><b>testLatestInformationForSymbol</b><br>Test class: testcase.spot.marketData.LatestInformationForSymbol<br>Parameters: BTCUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.LatestInformationForSymbol@408d971b</td></tr>
+<tr>
+<td title='testcase.spot.marketData.LatestInformationForSymbol.testLatestInformationForSymbol()'><b>testLatestInformationForSymbol</b><br>Test class: testcase.spot.marketData.LatestInformationForSymbol<br>Parameters: ETHUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.LatestInformationForSymbol@408d971b</td></tr>
+<tr>
+<td title='testcase.spot.marketData.LatestInformationForSymbol.testLatestInformationForSymbol()'><b>testLatestInformationForSymbol</b><br>Test class: testcase.spot.marketData.LatestInformationForSymbol<br>Parameters: BITUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.LatestInformationForSymbol@408d971b</td></tr>
+<tr>
+<td title='testcase.spot.marketData.LatestInformationForSymbol.testLatestInformationForSymbol()'><b>testLatestInformationForSymbol</b><br>Test class: testcase.spot.marketData.LatestInformationForSymbol<br>Parameters: XRPUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.LatestInformationForSymbol@408d971b</td></tr>
+<tr>
+<td title='testcase.spot.marketData.LatestInformationForSymbol.testLatestInformationForSymbol()'><b>testLatestInformationForSymbol</b><br>Test class: testcase.spot.marketData.LatestInformationForSymbol<br>Parameters: DOTUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.LatestInformationForSymbol@408d971b</td></tr>
+<tr>
+<td title='testcase.spot.marketData.MergedOrderBook.testMergedOrderBook()'><b>testMergedOrderBook</b><br>Test class: testcase.spot.marketData.MergedOrderBook<br>Parameters: BTCUSDT, 1, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.MergedOrderBook@6c6cb480</td></tr>
+<tr>
+<td title='testcase.spot.marketData.MergedOrderBook.testMergedOrderBook()'><b>testMergedOrderBook</b><br>Test class: testcase.spot.marketData.MergedOrderBook<br>Parameters: ETHUSDT, 1, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.MergedOrderBook@6c6cb480</td></tr>
+<tr>
+<td title='testcase.spot.marketData.MergedOrderBook.testMergedOrderBook()'><b>testMergedOrderBook</b><br>Test class: testcase.spot.marketData.MergedOrderBook<br>Parameters: BITUSDT, 1, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.MergedOrderBook@6c6cb480</td></tr>
+<tr>
+<td title='testcase.spot.marketData.MergedOrderBook.testMergedOrderBook()'><b>testMergedOrderBook</b><br>Test class: testcase.spot.marketData.MergedOrderBook<br>Parameters: XRPUSDT, 1, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.MergedOrderBook@6c6cb480</td></tr>
+<tr>
+<td title='testcase.spot.marketData.MergedOrderBook.testMergedOrderBook()'><b>testMergedOrderBook</b><br>Test class: testcase.spot.marketData.MergedOrderBook<br>Parameters: DOTUSDT, 1, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.MergedOrderBook@6c6cb480</td></tr>
+<tr>
+<td title='testcase.spot.marketData.OrderBook.testOrderBook()'><b>testOrderBook</b><br>Test class: testcase.spot.marketData.OrderBook<br>Parameters: BTCUSDT, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.OrderBook@3c46e67a</td></tr>
+<tr>
+<td title='testcase.spot.marketData.OrderBook.testOrderBook()'><b>testOrderBook</b><br>Test class: testcase.spot.marketData.OrderBook<br>Parameters: ETHUSDT, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.OrderBook@3c46e67a</td></tr>
+<tr>
+<td title='testcase.spot.marketData.OrderBook.testOrderBook()'><b>testOrderBook</b><br>Test class: testcase.spot.marketData.OrderBook<br>Parameters: BITUSDT, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.OrderBook@3c46e67a</td></tr>
+<tr>
+<td title='testcase.spot.marketData.OrderBook.testOrderBook()'><b>testOrderBook</b><br>Test class: testcase.spot.marketData.OrderBook<br>Parameters: XRPUSDT, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.OrderBook@3c46e67a</td></tr>
+<tr>
+<td title='testcase.spot.marketData.OrderBook.testOrderBook()'><b>testOrderBook</b><br>Test class: testcase.spot.marketData.OrderBook<br>Parameters: DOTUSDT, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.OrderBook@3c46e67a</td></tr>
+<tr>
+<td title='testcase.spot.marketData.PublicTradingRecords.testPublicTradingRecords()'><b>testPublicTradingRecords</b><br>Test class: testcase.spot.marketData.PublicTradingRecords<br>Parameters: BTCUSDT, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.PublicTradingRecords@c730b35</td></tr>
+<tr>
+<td title='testcase.spot.marketData.PublicTradingRecords.testPublicTradingRecords()'><b>testPublicTradingRecords</b><br>Test class: testcase.spot.marketData.PublicTradingRecords<br>Parameters: ETHUSDT, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.PublicTradingRecords@c730b35</td></tr>
+<tr>
+<td title='testcase.spot.marketData.PublicTradingRecords.testPublicTradingRecords()'><b>testPublicTradingRecords</b><br>Test class: testcase.spot.marketData.PublicTradingRecords<br>Parameters: BITUSDT, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.PublicTradingRecords@c730b35</td></tr>
+<tr>
+<td title='testcase.spot.marketData.PublicTradingRecords.testPublicTradingRecords()'><b>testPublicTradingRecords</b><br>Test class: testcase.spot.marketData.PublicTradingRecords<br>Parameters: XRPUSDT, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.PublicTradingRecords@c730b35</td></tr>
+<tr>
+<td title='testcase.spot.marketData.PublicTradingRecords.testPublicTradingRecords()'><b>testPublicTradingRecords</b><br>Test class: testcase.spot.marketData.PublicTradingRecords<br>Parameters: DOTUSDT, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.PublicTradingRecords@c730b35</td></tr>
+<tr>
+<td title='testcase.spot.marketData.QuerySymbol.testQuerySymbol()'><b>testQuerySymbol</b><br>Test class: testcase.spot.marketData.QuerySymbol<br>Parameters: BTCUSDT, BTC, USDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.QuerySymbol@206a70ef</td></tr>
+<tr>
+<td title='testcase.spot.marketData.QuerySymbol.testQuerySymbol()'><b>testQuerySymbol</b><br>Test class: testcase.spot.marketData.QuerySymbol<br>Parameters: ETHUSDT, ETH, USDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.QuerySymbol@206a70ef</td></tr>
+<tr>
+<td title='testcase.spot.marketData.QuerySymbol.testQuerySymbol()'><b>testQuerySymbol</b><br>Test class: testcase.spot.marketData.QuerySymbol<br>Parameters: BITUSDT, BIT, USDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.QuerySymbol@206a70ef</td></tr>
+<tr>
+<td title='testcase.spot.marketData.QuerySymbol.testQuerySymbol()'><b>testQuerySymbol</b><br>Test class: testcase.spot.marketData.QuerySymbol<br>Parameters: XRPUSDT, XRP, USDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.QuerySymbol@206a70ef</td></tr>
+<tr>
+<td title='testcase.spot.marketData.QuerySymbol.testQuerySymbol()'><b>testQuerySymbol</b><br>Test class: testcase.spot.marketData.QuerySymbol<br>Parameters: DOTUSDT, DOT, USDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.QuerySymbol@206a70ef</td></tr>
+<tr>
+<td title='testcase.spot.marketData.BestBidAskPrice.testRequestLog()'><b>testRequestLog</b><br>Test class: testcase.spot.marketData.BestBidAskPrice<br>Parameters: BTCUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.BestBidAskPrice@75d4a5c2</td></tr>
+<tr>
+<td title='testcase.spot.marketData.BestBidAskPrice.testRequestLog()'><b>testRequestLog</b><br>Test class: testcase.spot.marketData.BestBidAskPrice<br>Parameters: ETHUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.BestBidAskPrice@75d4a5c2</td></tr>
+<tr>
+<td title='testcase.spot.marketData.BestBidAskPrice.testRequestLog()'><b>testRequestLog</b><br>Test class: testcase.spot.marketData.BestBidAskPrice<br>Parameters: BITUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.BestBidAskPrice@75d4a5c2</td></tr>
+<tr>
+<td title='testcase.spot.marketData.BestBidAskPrice.testRequestLog()'><b>testRequestLog</b><br>Test class: testcase.spot.marketData.BestBidAskPrice<br>Parameters: XRPUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.BestBidAskPrice@75d4a5c2</td></tr>
+<tr>
+<td title='testcase.spot.marketData.BestBidAskPrice.testRequestLog()'><b>testRequestLog</b><br>Test class: testcase.spot.marketData.BestBidAskPrice<br>Parameters: DOTUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.BestBidAskPrice@75d4a5c2</td></tr>
+<tr>
+<td title='testcase.spot.marketData.LastTradedPrice.testRequestLog()'><b>testRequestLog</b><br>Test class: testcase.spot.marketData.LastTradedPrice<br>Parameters: BTCUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.LastTradedPrice@557caf28</td></tr>
+<tr>
+<td title='testcase.spot.marketData.LastTradedPrice.testRequestLog()'><b>testRequestLog</b><br>Test class: testcase.spot.marketData.LastTradedPrice<br>Parameters: ETHUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.LastTradedPrice@557caf28</td></tr>
+<tr>
+<td title='testcase.spot.marketData.LastTradedPrice.testRequestLog()'><b>testRequestLog</b><br>Test class: testcase.spot.marketData.LastTradedPrice<br>Parameters: BITUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.LastTradedPrice@557caf28</td></tr>
+<tr>
+<td title='testcase.spot.marketData.LastTradedPrice.testRequestLog()'><b>testRequestLog</b><br>Test class: testcase.spot.marketData.LastTradedPrice<br>Parameters: XRPUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.LastTradedPrice@557caf28</td></tr>
+<tr>
+<td title='testcase.spot.marketData.LastTradedPrice.testRequestLog()'><b>testRequestLog</b><br>Test class: testcase.spot.marketData.LastTradedPrice<br>Parameters: DOTUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.LastTradedPrice@557caf28</td></tr>
+<tr>
+<td title='testcase.spot.marketData.LatestInformationForSymbol.testRequestLog()'><b>testRequestLog</b><br>Test class: testcase.spot.marketData.LatestInformationForSymbol<br>Parameters: BTCUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.LatestInformationForSymbol@408d971b</td></tr>
+<tr>
+<td title='testcase.spot.marketData.LatestInformationForSymbol.testRequestLog()'><b>testRequestLog</b><br>Test class: testcase.spot.marketData.LatestInformationForSymbol<br>Parameters: ETHUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.LatestInformationForSymbol@408d971b</td></tr>
+<tr>
+<td title='testcase.spot.marketData.LatestInformationForSymbol.testRequestLog()'><b>testRequestLog</b><br>Test class: testcase.spot.marketData.LatestInformationForSymbol<br>Parameters: BITUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.LatestInformationForSymbol@408d971b</td></tr>
+<tr>
+<td title='testcase.spot.marketData.LatestInformationForSymbol.testRequestLog()'><b>testRequestLog</b><br>Test class: testcase.spot.marketData.LatestInformationForSymbol<br>Parameters: XRPUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.LatestInformationForSymbol@408d971b</td></tr>
+<tr>
+<td title='testcase.spot.marketData.LatestInformationForSymbol.testRequestLog()'><b>testRequestLog</b><br>Test class: testcase.spot.marketData.LatestInformationForSymbol<br>Parameters: DOTUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.LatestInformationForSymbol@408d971b</td></tr>
+<tr>
+<td title='testcase.spot.marketData.MergedOrderBook.testRequestLog()'><b>testRequestLog</b><br>Test class: testcase.spot.marketData.MergedOrderBook<br>Parameters: BTCUSDT, 1, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.MergedOrderBook@6c6cb480</td></tr>
+<tr>
+<td title='testcase.spot.marketData.MergedOrderBook.testRequestLog()'><b>testRequestLog</b><br>Test class: testcase.spot.marketData.MergedOrderBook<br>Parameters: ETHUSDT, 1, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.MergedOrderBook@6c6cb480</td></tr>
+<tr>
+<td title='testcase.spot.marketData.MergedOrderBook.testRequestLog()'><b>testRequestLog</b><br>Test class: testcase.spot.marketData.MergedOrderBook<br>Parameters: BITUSDT, 1, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.MergedOrderBook@6c6cb480</td></tr>
+<tr>
+<td title='testcase.spot.marketData.MergedOrderBook.testRequestLog()'><b>testRequestLog</b><br>Test class: testcase.spot.marketData.MergedOrderBook<br>Parameters: XRPUSDT, 1, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.MergedOrderBook@6c6cb480</td></tr>
+<tr>
+<td title='testcase.spot.marketData.MergedOrderBook.testRequestLog()'><b>testRequestLog</b><br>Test class: testcase.spot.marketData.MergedOrderBook<br>Parameters: DOTUSDT, 1, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.MergedOrderBook@6c6cb480</td></tr>
+<tr>
+<td title='testcase.spot.marketData.OrderBook.testRequestLog()'><b>testRequestLog</b><br>Test class: testcase.spot.marketData.OrderBook<br>Parameters: BTCUSDT, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.OrderBook@3c46e67a</td></tr>
+<tr>
+<td title='testcase.spot.marketData.OrderBook.testRequestLog()'><b>testRequestLog</b><br>Test class: testcase.spot.marketData.OrderBook<br>Parameters: ETHUSDT, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.OrderBook@3c46e67a</td></tr>
+<tr>
+<td title='testcase.spot.marketData.OrderBook.testRequestLog()'><b>testRequestLog</b><br>Test class: testcase.spot.marketData.OrderBook<br>Parameters: BITUSDT, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.OrderBook@3c46e67a</td></tr>
+<tr>
+<td title='testcase.spot.marketData.OrderBook.testRequestLog()'><b>testRequestLog</b><br>Test class: testcase.spot.marketData.OrderBook<br>Parameters: XRPUSDT, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.OrderBook@3c46e67a</td></tr>
+<tr>
+<td title='testcase.spot.marketData.OrderBook.testRequestLog()'><b>testRequestLog</b><br>Test class: testcase.spot.marketData.OrderBook<br>Parameters: DOTUSDT, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.OrderBook@3c46e67a</td></tr>
+<tr>
+<td title='testcase.spot.marketData.PublicTradingRecords.testRequestLog()'><b>testRequestLog</b><br>Test class: testcase.spot.marketData.PublicTradingRecords<br>Parameters: BTCUSDT, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.PublicTradingRecords@c730b35</td></tr>
+<tr>
+<td title='testcase.spot.marketData.PublicTradingRecords.testRequestLog()'><b>testRequestLog</b><br>Test class: testcase.spot.marketData.PublicTradingRecords<br>Parameters: ETHUSDT, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.PublicTradingRecords@c730b35</td></tr>
+<tr>
+<td title='testcase.spot.marketData.PublicTradingRecords.testRequestLog()'><b>testRequestLog</b><br>Test class: testcase.spot.marketData.PublicTradingRecords<br>Parameters: BITUSDT, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.PublicTradingRecords@c730b35</td></tr>
+<tr>
+<td title='testcase.spot.marketData.PublicTradingRecords.testRequestLog()'><b>testRequestLog</b><br>Test class: testcase.spot.marketData.PublicTradingRecords<br>Parameters: XRPUSDT, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.PublicTradingRecords@c730b35</td></tr>
+<tr>
+<td title='testcase.spot.marketData.PublicTradingRecords.testRequestLog()'><b>testRequestLog</b><br>Test class: testcase.spot.marketData.PublicTradingRecords<br>Parameters: DOTUSDT, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.PublicTradingRecords@c730b35</td></tr>
+<tr>
+<td title='testcase.spot.marketData.QuerySymbol.testRequestLog()'><b>testRequestLog</b><br>Test class: testcase.spot.marketData.QuerySymbol</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.QuerySymbol@206a70ef</td></tr>
+<tr>
+<td title='testcase.spot.marketData.BestBidAskPrice.testRequestTime()'><b>testRequestTime</b><br>Test class: testcase.spot.marketData.BestBidAskPrice<br>Parameters: BTCUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.BestBidAskPrice@75d4a5c2</td></tr>
+<tr>
+<td title='testcase.spot.marketData.BestBidAskPrice.testRequestTime()'><b>testRequestTime</b><br>Test class: testcase.spot.marketData.BestBidAskPrice<br>Parameters: ETHUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.BestBidAskPrice@75d4a5c2</td></tr>
+<tr>
+<td title='testcase.spot.marketData.BestBidAskPrice.testRequestTime()'><b>testRequestTime</b><br>Test class: testcase.spot.marketData.BestBidAskPrice<br>Parameters: BITUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.BestBidAskPrice@75d4a5c2</td></tr>
+<tr>
+<td title='testcase.spot.marketData.BestBidAskPrice.testRequestTime()'><b>testRequestTime</b><br>Test class: testcase.spot.marketData.BestBidAskPrice<br>Parameters: XRPUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.BestBidAskPrice@75d4a5c2</td></tr>
+<tr>
+<td title='testcase.spot.marketData.BestBidAskPrice.testRequestTime()'><b>testRequestTime</b><br>Test class: testcase.spot.marketData.BestBidAskPrice<br>Parameters: DOTUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.BestBidAskPrice@75d4a5c2</td></tr>
+<tr>
+<td title='testcase.spot.marketData.LastTradedPrice.testRequestTime()'><b>testRequestTime</b><br>Test class: testcase.spot.marketData.LastTradedPrice<br>Parameters: BTCUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.LastTradedPrice@557caf28</td></tr>
+<tr>
+<td title='testcase.spot.marketData.LastTradedPrice.testRequestTime()'><b>testRequestTime</b><br>Test class: testcase.spot.marketData.LastTradedPrice<br>Parameters: ETHUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.LastTradedPrice@557caf28</td></tr>
+<tr>
+<td title='testcase.spot.marketData.LastTradedPrice.testRequestTime()'><b>testRequestTime</b><br>Test class: testcase.spot.marketData.LastTradedPrice<br>Parameters: BITUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.LastTradedPrice@557caf28</td></tr>
+<tr>
+<td title='testcase.spot.marketData.LastTradedPrice.testRequestTime()'><b>testRequestTime</b><br>Test class: testcase.spot.marketData.LastTradedPrice<br>Parameters: XRPUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.LastTradedPrice@557caf28</td></tr>
+<tr>
+<td title='testcase.spot.marketData.LastTradedPrice.testRequestTime()'><b>testRequestTime</b><br>Test class: testcase.spot.marketData.LastTradedPrice<br>Parameters: DOTUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.LastTradedPrice@557caf28</td></tr>
+<tr>
+<td title='testcase.spot.marketData.LatestInformationForSymbol.testRequestTime()'><b>testRequestTime</b><br>Test class: testcase.spot.marketData.LatestInformationForSymbol<br>Parameters: BTCUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.LatestInformationForSymbol@408d971b</td></tr>
+<tr>
+<td title='testcase.spot.marketData.LatestInformationForSymbol.testRequestTime()'><b>testRequestTime</b><br>Test class: testcase.spot.marketData.LatestInformationForSymbol<br>Parameters: ETHUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.LatestInformationForSymbol@408d971b</td></tr>
+<tr>
+<td title='testcase.spot.marketData.LatestInformationForSymbol.testRequestTime()'><b>testRequestTime</b><br>Test class: testcase.spot.marketData.LatestInformationForSymbol<br>Parameters: BITUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.LatestInformationForSymbol@408d971b</td></tr>
+<tr>
+<td title='testcase.spot.marketData.LatestInformationForSymbol.testRequestTime()'><b>testRequestTime</b><br>Test class: testcase.spot.marketData.LatestInformationForSymbol<br>Parameters: XRPUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.LatestInformationForSymbol@408d971b</td></tr>
+<tr>
+<td title='testcase.spot.marketData.LatestInformationForSymbol.testRequestTime()'><b>testRequestTime</b><br>Test class: testcase.spot.marketData.LatestInformationForSymbol<br>Parameters: DOTUSDT</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.LatestInformationForSymbol@408d971b</td></tr>
+<tr>
+<td title='testcase.spot.marketData.MergedOrderBook.testRequestTime()'><b>testRequestTime</b><br>Test class: testcase.spot.marketData.MergedOrderBook<br>Parameters: BTCUSDT, 1, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.MergedOrderBook@6c6cb480</td></tr>
+<tr>
+<td title='testcase.spot.marketData.MergedOrderBook.testRequestTime()'><b>testRequestTime</b><br>Test class: testcase.spot.marketData.MergedOrderBook<br>Parameters: ETHUSDT, 1, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.MergedOrderBook@6c6cb480</td></tr>
+<tr>
+<td title='testcase.spot.marketData.MergedOrderBook.testRequestTime()'><b>testRequestTime</b><br>Test class: testcase.spot.marketData.MergedOrderBook<br>Parameters: BITUSDT, 1, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.MergedOrderBook@6c6cb480</td></tr>
+<tr>
+<td title='testcase.spot.marketData.MergedOrderBook.testRequestTime()'><b>testRequestTime</b><br>Test class: testcase.spot.marketData.MergedOrderBook<br>Parameters: XRPUSDT, 1, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.MergedOrderBook@6c6cb480</td></tr>
+<tr>
+<td title='testcase.spot.marketData.MergedOrderBook.testRequestTime()'><b>testRequestTime</b><br>Test class: testcase.spot.marketData.MergedOrderBook<br>Parameters: DOTUSDT, 1, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.MergedOrderBook@6c6cb480</td></tr>
+<tr>
+<td title='testcase.spot.marketData.OrderBook.testRequestTime()'><b>testRequestTime</b><br>Test class: testcase.spot.marketData.OrderBook<br>Parameters: BTCUSDT, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.OrderBook@3c46e67a</td></tr>
+<tr>
+<td title='testcase.spot.marketData.OrderBook.testRequestTime()'><b>testRequestTime</b><br>Test class: testcase.spot.marketData.OrderBook<br>Parameters: ETHUSDT, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.OrderBook@3c46e67a</td></tr>
+<tr>
+<td title='testcase.spot.marketData.OrderBook.testRequestTime()'><b>testRequestTime</b><br>Test class: testcase.spot.marketData.OrderBook<br>Parameters: BITUSDT, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.OrderBook@3c46e67a</td></tr>
+<tr>
+<td title='testcase.spot.marketData.OrderBook.testRequestTime()'><b>testRequestTime</b><br>Test class: testcase.spot.marketData.OrderBook<br>Parameters: XRPUSDT, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.OrderBook@3c46e67a</td></tr>
+<tr>
+<td title='testcase.spot.marketData.OrderBook.testRequestTime()'><b>testRequestTime</b><br>Test class: testcase.spot.marketData.OrderBook<br>Parameters: DOTUSDT, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.OrderBook@3c46e67a</td></tr>
+<tr>
+<td title='testcase.spot.marketData.PublicTradingRecords.testRequestTime()'><b>testRequestTime</b><br>Test class: testcase.spot.marketData.PublicTradingRecords<br>Parameters: BTCUSDT, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.PublicTradingRecords@c730b35</td></tr>
+<tr>
+<td title='testcase.spot.marketData.PublicTradingRecords.testRequestTime()'><b>testRequestTime</b><br>Test class: testcase.spot.marketData.PublicTradingRecords<br>Parameters: ETHUSDT, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.PublicTradingRecords@c730b35</td></tr>
+<tr>
+<td title='testcase.spot.marketData.PublicTradingRecords.testRequestTime()'><b>testRequestTime</b><br>Test class: testcase.spot.marketData.PublicTradingRecords<br>Parameters: BITUSDT, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.PublicTradingRecords@c730b35</td></tr>
+<tr>
+<td title='testcase.spot.marketData.PublicTradingRecords.testRequestTime()'><b>testRequestTime</b><br>Test class: testcase.spot.marketData.PublicTradingRecords<br>Parameters: XRPUSDT, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.PublicTradingRecords@c730b35</td></tr>
+<tr>
+<td title='testcase.spot.marketData.PublicTradingRecords.testRequestTime()'><b>testRequestTime</b><br>Test class: testcase.spot.marketData.PublicTradingRecords<br>Parameters: DOTUSDT, 1</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.PublicTradingRecords@c730b35</td></tr>
+<tr>
+<td title='testcase.spot.marketData.QuerySymbol.testRequestTime()'><b>testRequestTime</b><br>Test class: testcase.spot.marketData.QuerySymbol</td>
+<td></td>
+<td>0</td>
+<td>testcase.spot.marketData.QuerySymbol@206a70ef</td></tr>
+</table><p>
+</body>
+</html>

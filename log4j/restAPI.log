@@ -1,0 +1,410 @@
+INFO	2022-03-22 04:53:04,701	10	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Broken pipe (Write failed)
+INFO	2022-03-22 04:53:04,721	30	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 06:48:26,233	10	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Connection reset
+INFO	2022-03-22 06:48:26,278	55	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 07:04:57,085	990862	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Broken pipe (Write failed)
+INFO	2022-03-22 07:04:57,089	990866	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 07:53:54,127	3927904	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when processing request to {s}->https://api-testnet.bybit.com:443: Broken pipe (Write failed)
+INFO	2022-03-22 07:53:54,156	3927933	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying request to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 08:46:08,196	0	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Broken pipe (Write failed)
+INFO	2022-03-22 08:46:08,262	66	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 09:04:19,768	1091572	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Connection reset
+INFO	2022-03-22 09:04:19,773	1091577	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 11:06:41,092	0	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Connection reset
+INFO	2022-03-22 11:06:41,112	20	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 12:55:19,096	6518004	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Connection reset
+INFO	2022-03-22 12:55:19,552	6518460	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 13:28:12,765	8491673	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when processing request to {s}->https://api-testnet.bybit.com:443: Broken pipe (Write failed)
+INFO	2022-03-22 13:28:12,768	8491676	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying request to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 13:45:01,141	9500049	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when processing request to {s}->https://api-testnet.bybit.com:443: Broken pipe (Write failed)
+INFO	2022-03-22 13:45:01,155	9500063	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying request to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 14:17:15,222	0	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Connection reset
+INFO	2022-03-22 14:17:15,287	65	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 14:33:05,784	950562	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when processing request to {s}->https://api-testnet.bybit.com:443: Broken pipe (Write failed)
+INFO	2022-03-22 14:33:06,049	950827	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying request to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 15:05:40,355	2905133	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Broken pipe (Write failed)
+INFO	2022-03-22 15:05:40,378	2905156	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 15:38:40,972	4885750	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when processing request to {s}->https://api-testnet.bybit.com:443: Connection reset
+INFO	2022-03-22 15:38:40,979	4885757	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying request to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 16:27:42,854	7827632	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Connection reset
+INFO	2022-03-22 16:27:42,859	7827637	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 18:59:14,937	9	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Broken pipe (Write failed)
+INFO	2022-03-22 18:59:15,016	88	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 19:15:00,386	945458	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Broken pipe (Write failed)
+INFO	2022-03-22 19:15:00,560	945632	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:52:59,129	5	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:52:59,167	43	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:52:59,175	51	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:52:59,175	51	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:52:59,175	51	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:52:59,176	52	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:52:59,348	224	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:52:59,348	224	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:52:59,348	224	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:52:59,348	224	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:52:59,350	226	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:52:59,352	228	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:52:59,578	454	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:52:59,578	454	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:52:59,578	454	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:52:59,578	454	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:52:59,579	455	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:52:59,579	455	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:52:59,642	518	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:52:59,642	518	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:52:59,642	518	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:52:59,642	518	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:52:59,642	518	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:52:59,642	518	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:52:59,687	563	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:52:59,691	567	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:52:59,691	567	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:52:59,691	567	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:52:59,691	567	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:52:59,692	568	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,284	1160	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,287	1163	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,287	1163	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,287	1163	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,287	1163	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,288	1164	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,322	1198	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,323	1199	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,323	1199	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,323	1199	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,323	1199	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,323	1199	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,347	1223	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,347	1223	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,347	1223	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,347	1223	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,347	1223	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,347	1223	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,351	1227	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,352	1228	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,352	1228	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,352	1228	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,352	1228	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,352	1228	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,357	1233	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,357	1233	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,357	1233	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,357	1233	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,357	1233	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,358	1234	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,608	1484	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,608	1484	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,610	1486	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,610	1486	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,611	1487	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,611	1487	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,619	1495	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,619	1495	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,619	1495	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,619	1495	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,619	1495	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,619	1495	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,625	1501	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,625	1501	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,625	1501	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,625	1501	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,625	1501	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,625	1501	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,629	1505	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,629	1505	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,629	1505	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,629	1505	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,629	1505	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,629	1505	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,635	1511	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,635	1511	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,635	1511	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,635	1511	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,635	1511	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,635	1511	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,729	1605	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,731	1607	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,732	1608	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,732	1608	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,732	1608	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,732	1608	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,750	1626	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,750	1626	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,750	1626	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,750	1626	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,750	1626	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,750	1626	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,761	1637	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,761	1637	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,761	1637	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,761	1637	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,761	1637	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,761	1637	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,777	1653	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,777	1653	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,777	1653	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,777	1653	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,778	1654	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,778	1654	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,783	1659	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,783	1659	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,783	1659	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,783	1659	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,783	1659	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,783	1659	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,882	1758	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,883	1759	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,883	1759	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,883	1759	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,883	1759	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,883	1759	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,889	1765	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,889	1765	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,890	1766	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,890	1766	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,891	1767	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,891	1767	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,894	1770	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,895	1771	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,895	1771	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,895	1771	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,895	1771	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,895	1771	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,899	1775	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,899	1775	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,899	1775	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,899	1775	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,899	1775	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,899	1775	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,905	1781	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,905	1781	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,905	1781	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,905	1781	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:00,906	1782	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:00,906	1782	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,063	1939	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,064	1940	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,065	1941	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,065	1941	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,065	1941	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,065	1941	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,073	1949	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,073	1949	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,073	1949	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,073	1949	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,073	1949	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,073	1949	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,077	1953	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,078	1954	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,078	1954	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,078	1954	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,078	1954	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,078	1954	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,082	1958	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,082	1958	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,082	1958	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,082	1958	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,082	1958	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,082	1958	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,087	1963	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,087	1963	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,087	1963	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,087	1963	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,087	1963	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,087	1963	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,218	2094	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,218	2094	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,218	2094	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,218	2094	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,218	2094	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,218	2094	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,234	2110	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,234	2110	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,234	2110	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,234	2110	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,234	2110	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,234	2110	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,278	2154	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,281	2157	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,282	2158	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,282	2158	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,282	2158	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,282	2158	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,317	2193	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,317	2193	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,317	2193	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,317	2193	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,317	2193	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,317	2193	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,330	2206	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,331	2207	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,332	2208	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,333	2209	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,333	2209	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,333	2209	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,468	2344	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,468	2344	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,468	2344	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,468	2344	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,468	2344	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,468	2344	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,482	2358	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,482	2358	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,482	2358	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,482	2358	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,482	2358	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,482	2358	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,493	2369	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,493	2369	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,494	2370	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,494	2370	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,494	2370	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,494	2370	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,500	2376	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,500	2376	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,501	2377	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,501	2377	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,501	2377	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,501	2377	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,506	2382	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,506	2382	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,507	2383	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,507	2383	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,507	2383	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,507	2383	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,651	2527	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,652	2528	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,652	2528	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,652	2528	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,652	2528	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,652	2528	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,658	2534	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,658	2534	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,658	2534	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,658	2534	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,658	2534	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,658	2534	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,699	2575	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,699	2575	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,699	2575	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,699	2575	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,699	2575	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,699	2575	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,709	2585	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,711	2587	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,711	2587	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,711	2587	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,711	2587	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,711	2587	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,715	2591	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,715	2591	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,715	2591	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,715	2591	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,715	2591	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,715	2591	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,828	2704	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,829	2705	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,829	2705	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,829	2705	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,829	2705	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,829	2705	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,847	2723	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,847	2723	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,848	2724	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,848	2724	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,848	2724	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,848	2724	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,854	2730	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,854	2730	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,854	2730	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,854	2730	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,854	2730	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,854	2730	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,859	2735	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,860	2736	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,860	2736	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,860	2736	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,860	2736	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,860	2736	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,865	2741	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,865	2741	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,865	2741	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,865	2741	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,865	2741	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,865	2741	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,874	2750	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,874	2750	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,874	2750	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,874	2750	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,874	2750	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,874	2750	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,878	2754	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,878	2754	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,878	2754	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,878	2754	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-22 21:53:01,878	2754	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-22 21:53:01,878	2754	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-23 00:26:18,920	0	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Connection reset
+INFO	2022-03-23 00:26:18,924	4	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-23 03:29:09,798	0	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when processing request to {s}->https://api-testnet.bybit.com:443: Connection reset
+INFO	2022-03-23 03:29:09,832	34	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying request to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-23 05:10:28,876	0	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when processing request to {s}->https://api-testnet.bybit.com:443: Connection reset
+INFO	2022-03-23 05:10:28,905	29	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying request to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-23 10:15:48,970	0	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when processing request to {s}->https://api-testnet.bybit.com:443: Broken pipe (Write failed)
+INFO	2022-03-23 10:15:49,208	238	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying request to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-23 10:17:49,496	120526	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Broken pipe (Write failed)
+INFO	2022-03-23 10:17:49,516	120546	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-23 11:13:49,956	3	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Broken pipe (Write failed)
+INFO	2022-03-23 11:13:49,964	11	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-23 20:16:13,561	1	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Connection reset
+INFO	2022-03-23 20:16:13,567	7	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-23 21:52:41,542	0	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Connection reset
+INFO	2022-03-23 21:52:41,552	10	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-23 22:08:34,995	953453	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-23 22:08:35,007	953465	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-23 22:08:35,011	953469	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-23 22:08:35,011	953469	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-23 22:08:35,011	953469	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-23 22:08:35,011	953469	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-23 22:08:35,323	953781	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-23 22:08:35,324	953782	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-23 22:08:35,324	953782	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-23 22:08:35,324	953782	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-23 22:08:35,324	953782	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-23 22:08:35,325	953783	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-23 22:08:35,486	953944	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-23 22:08:35,486	953944	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-23 22:08:35,486	953944	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-23 22:08:35,486	953944	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-23 22:08:35,509	953967	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-23 22:08:35,509	953967	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-23 22:08:35,652	954110	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-23 22:08:35,671	954129	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-23 22:08:35,676	954134	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-23 22:08:35,677	954135	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-23 22:08:35,678	954136	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-23 22:08:35,678	954136	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-23 22:08:35,863	954321	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-23 22:08:35,864	954322	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-23 22:08:35,879	954337	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-23 22:08:35,881	954339	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-23 22:08:35,882	954340	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Network is unreachable (connect failed)
+INFO	2022-03-23 22:08:35,882	954340	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-23 22:41:51,800	2950258	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when processing request to {s}->https://api-testnet.bybit.com:443: Broken pipe (Write failed)
+INFO	2022-03-23 22:41:51,879	2950337	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying request to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-24 03:58:33,938	0	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Broken pipe (Write failed)
+INFO	2022-03-24 03:58:33,964	26	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-24 07:03:49,684	1	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when processing request to {s}->https://api-testnet.bybit.com:443: Connection reset
+INFO	2022-03-24 07:03:49,718	35	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying request to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-24 08:47:35,766	2	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Connection reset
+INFO	2022-03-24 08:47:35,830	66	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-24 12:10:02,304	1	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Connection reset
+INFO	2022-03-24 12:10:02,319	16	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-24 17:30:04,392	1	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when processing request to {s}->https://api-testnet.bybit.com:443: Connection reset
+INFO	2022-03-24 17:30:04,419	28	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying request to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-25 06:40:13,667	1	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Connection reset
+INFO	2022-03-25 06:40:13,816	150	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-25 10:31:20,833	0	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Broken pipe (Write failed)
+INFO	2022-03-25 10:31:20,845	12	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
+INFO	2022-03-28 10:11:48,047	2	org.apache.http.impl.client.DefaultHttpClient	[main]	I/O exception (java.net.SocketException) caught when connecting to {s}->https://api-testnet.bybit.com:443: Broken pipe (Write failed)
+INFO	2022-03-28 10:11:48,052	7	org.apache.http.impl.client.DefaultHttpClient	[main]	Retrying connect to {s}->https://api-testnet.bybit.com:443
